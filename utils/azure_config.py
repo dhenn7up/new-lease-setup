@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-def get_config():
+def get_azureconfig():
     # Get the root directory of the project
     BASE_DIR = Path(__file__).resolve().parent.parent
 
